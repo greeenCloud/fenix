@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="sr">
+  
+<head>
+    <title>Licencirani Dom za smeštaj odraslih i starijih lica - Fenix, Padina</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="author" content="Anzelika"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://github.com/greeenCloud/fenix/blob/main/favicon.png?raw=true">
+    <link rel="stylesheet" href="fenix.css" type="text/css">
+  
+
+  
+    
+<style>
+  /*body {
+    margin: 0;
+  }
+  header {
+    padding: 15px;
+}
+
+.w3-row img {
+  width: 300px;
+  height: 224px;
+  padding-bottom: 10px;
+}
+.w3-button {
+  font-size: 20px;
+}
+
+ /*NAVIGATION BAR*/
+    
+ /*.topnav {
+    overflow: hidden;
+    background-color: #4d4d4d;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+  /*SLIDESHOW*/   
+
+  /*.mySlides {
+    display: none;
+    }
+    img {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%; 
+    }
+    
+    
+    .slideshow-container {
+      
+      width: 100%;
+      height: 100%;
+      position: relative;
+      margin: auto;
+    }
+    
+    
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 60%;
+      width: auto;
+      padding: 12px;
+      margin-top: -22px;
+      color: red;
+      font-weight: bold;
+      font-size: 22px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    
+    .prev:hover, .next:hover {
+      background-color: grey;
+    }
+    
+    
+    .text {
+      color: white;
+      font-size: 22px;
+      padding: 8px 12px;
+      margin-bottom: 0;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: left;
+
+      
+    }
+    
+    
+    /*.numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 50px 12px;
+      position: absolute;
+      top: 0;
+    }*/
+    
+    
+    /*.dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: red;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+    
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    .dailyRoutine img {
+        width: 220px;
+        height: 150px;
+    }
+    .footer {
+    background-color: #333333;
+    color: #ffffff;
+      }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+      }
+    @media only screen and (max-width: 600px) {
+      .prev, .next,.text {font-size: 16px}
+      .dom {
+        width: 295px;
+        height: 170px;
+      }
+
+    }*/
+  
+
+
+ 
+</style>
+        </head>
+        <body>
+        <!--NAVBAR-->    
+           <div class="slideshow-container">
+            <div class="topnav" id="myTopnav">
+              <a class="active" style="background-color: black"><img src="https://github.com/greeenCloud/fenix/blob/main/fenix%20logo.png?raw=true"></a>
+              <a href="fenix.html">Početna</a>
+              <a href="oNama.html" target="_blank">O nama</a>
+              <a href="usluge.html"target="_blank">Usluge</a>
+              <a href="kontakt.html" target="_blank">Kontakt</a>
+              <a href="">Galerija</a>
+              <a href="javascript:void(0);" class="icon" onclick="barFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+              
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="https://github.com/greeenCloud/fenix/blob/main/fenix-dvoriste1.jpg?raw=true" width="100%"/>
+                <div class="text">BEOGRAD - PADINA samo 48 kilometara </div>
+            </div>
+                
+            <div class="mySlides fade">
+               <div class="numbertext"></div>
+                <img src="https://github.com/greeenCloud/fenix/blob/main/fenix-dvoriste2.jpg?raw=true" style="width: 100%";/>
+                <div class="text w3-win8-sienna">Družite se i učestvujte u raznim aktivnostima</div>
+            </div>
+                
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="https://github.com/greeenCloud/fenix/blob/main/fenix-dvoriste3.jpg?raw=true" style="width: 100%"/>
+                <div class="text">Boravak u zdravom okruženju</div>
+            </div>
+                
+            <div class="mySlides fade">
+                <div class="numbertext"></div>-->
+                <img src="https://github.com/greeenCloud/fenix/blob/main/fenix-dvoriste4.jpg?raw=true" style="width: 100%"/>
+                <div class="text">Profesionalno osoblje pruža najbolju negu</div>
+            </div>
+                
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="https://github.com/greeenCloud/fenix/blob/main/fenix-dvoriste5.jpg?raw=true" style="width: 100%"/>
+                <div class="text">Besprekorno uredjeno dvorište Doma</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+             
+              
+            <br>
+              
+            <div style="text-align: center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+            <br>
+        <div class="w3-container w3-red w3-center header">
+            <h3>Ako želite najbolje za svoje najmilije, <br> za zdrav i udoban život Dom u provinciji je pravi izbor!</h3>
+        </div> 
+        <div class="w3-container w3-center"> <h2><i>Najpovoljnije cene za visoki kvalitet usluge smeštaja i nege koju nudimo. Posetite nas lično, bez ikakvih obaveza, da se uverite u naše reči.<br>
+        Razdaljina ustanove:<br>
+        <h3>Beograd 40km, Novi Sad 85km, Zrenjanin 44km, Pančevo 30km</h3>  
+        </i></h2><br></div>
+        
+        <div class="w3-container w3-center">
+            <iframe class="dom" width="642" height="340" src="https://www.youtube.com/embed/hNz1detiVYs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+            <p>Pogledajte prezentaciju ustanove Fenix u Padini</p>
+         </div><br>
+         <div class="w3-panel w3-content w3-card w3-sand  w3-center">
+            <p>Dom za smeštaj odraslih i starijih „Fenix“ u Padini, je ustanova namenski građena, prilagođena i
+              koncipirana za pružanje
+              usluga korisnicima koji se nalaze u trećem životnom dobu a koji su još uvek vitalni ili im je
+              potrebna povremena
+              asistencija pri obavljanju određenih životnih potreba.</p> <p>Fenix ustanova je povezana sa smeštajnom ustanovom "Gold Star" u Kovačici u jednu celinu, gde mogu korisnici koji su još uvek vitalni da borave u
+              ustanovi ovog tipa a
+              ukoliko dođe do pogoršanja zdravstvenog stanja ili privremeni oporavak usled bolesti ili
+              određenih medicinskih
+              intervencija koje zahtevaju smeštaj u stacionaru,ustanova s medicinskom negom "Gold Star" je na
+              raspolaganju sa svojim
+              kapacitetom za pružanje ovih usluga.</p>
+          Tako da naši korisnici imaju mogućnost da budu uvek zbrinuti u svakom trenutku u raznim životnim i
+          zdravstvenim fazama.
+          Našu ustanovu socijalne zaštite „Gold Star", Kovačica možete pogledati na sajtu</p>
+          <a href="http://www.goldstarkovacica.com/"target="_blank"><h5>www.goldstarkovacica.com</h5></a></div>
+        <br><br><br>
+
+         <!--OKUPACIONA TERAPIJA-->
+
+        
+          <button class="w3-button w3-block w3-light-grey w3-left-align">
+            Okupaciona terapija - galerija</button>
+            <div id="Demo1" class="w3-panel w3-light-grey w3-display-container">
+          <p>Okupaciona terapija povoljno utice na raspoloženje a samim tim i na zdravlje naših korisnika.</p>
+      
+          <div class="w3-container w3-row">
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/1156.jpg?raw=true" alt="Pripreme za Haloween">
+              <div><p>Pripreme za Halloween</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/CAM00682.jpg?raw=true" alt="U susret proleću">
+              <div><p>U susret proleću</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0323.jpg?raw=true" alt="Društvene igre">
+              <div><p>Društvene igre</p></div>
+            </div>
+          </div>
+
+          <div class="w3-container w3-row">
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0504.jpg?raw=true" alt="Zajednički projekat">
+              <div><p>Zajednički projekat</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/MARKA%20018.jpg?raw=true" alt="Umetnici na delu">
+              <div><p>Umetnici na delu</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/MARKA%20022.jpg?raw=true" alt="Čitanje knjiga">
+              <div><p>Godine nisu prepreka za čitanje knjiga</p></div>
+            </div>
+            </div> 
+          </div>
+
+        <!--POSETIOCI DOMA-->
+
+        <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-light-grey w3-left-align">
+          Posetioci Doma - galerija</button>
+          <div id="Demo2" class="w3-hide w3-panel w3-light-grey w3-display-container">
+          <p>Posetioci doma su deca, kulturni umetnici, novinari i naravno rodbina.</p>
+
+          <div class="w3-container w3-row">
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/1Foto_by_Elenka_Duris.jpg?raw=true" alt="Deca u poseti Domu">
+            <div><p>Deca u poseti Domu</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/3Foto_by_Elenka_Duris.jpg?raw=true" alt="Kulturni program u Domu">
+            <div><p>Delić kulturnog programa u Domu</p></div>
+          </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/7Foto_by_Elenka_Duris.jpg?raw=true" alt="Kulturni program u domu">
+            <div><p>Kulturni program</p></div>
+            </div>
+          </div>
+
+          <div class="w3-container w3-row">
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/den_starych_002.jpg?raw=true" alt="Druženje sa posetiocima na dvorištu">
+              <div><p>Obeležen 1,oktobar, Medjunarodni Dan Starih</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/IMG_20170308_151425.jpg?raw=true" alt="Velika trpezarija">
+              <div><p>Velika trpezarija prima mnogo gostiju</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/IMG_0337.jpg?raw=true" alt="Mališani u domu">
+              <div><p>Mališani u poseti Domu</p></div>
+            </div>
+            
+          </div>
+        </div>
+
+        <!--BORAVAK NAPOLJU-->
+
+        <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-light-grey w3-left-align">
+          Boravak napolju - galerija</button>
+          <div id="Demo3" class="w3-hide w3-panel w3-light-grey w3-display-container">
+       
+          <p>Mnogo zelenila, divne male negovane baštice i puno drveća odličan su ambijent za odmor naših korisnika </p>
+
+          <div class="w3-container w3-row">
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0019.jpg?raw=true" alt="Na dvorištu">
+              <div><p>Napolju je uvek prijatno u društvu</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0020.jpg?raw=true" alt="Druženje na dvorištu">
+              <div><p>Druženje na dvorištu</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0022.jpg?raw=true" alt="U parku">
+              <div><p>U obližnjem parku</p></div>
+            </div>
+          </div>
+
+          <div class="w3-container w3-row">
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0488.jpg?raw=true" alt="Briga za druge">
+              <div><p>Korisnici doma brinu jedni za druge</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0492.jpg?raw=true" alt="Radionica">
+              <div><p>Zajednički projekat</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0497.jpg?raw=true" alt="U dvorištu">
+              <div><p>Pauza posle završenog projekta</p></div>
+            </div>
+            
+          </div>
+        </div>
+        <!--PRIPREME ZA PRAZNIKE-->
+
+        <button onclick="myFunction('Demo4')" class="w3-button w3-block w3-light-grey w3-left-align">
+          Pripreme za praznike - galerija</button>
+          <div id="Demo4" class="w3-hide w3-panel w3-light-grey w3-display-container">
+         
+          <p>Tokom cele godine pratimo kalendar praznika i na vreme počnemo sa pripremama</p>
+
+          <div class="w3-container w3-row">
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0368.jpg?raw=true" alt="Pripreme za Uskrs">
+              <div><p>Pripreme za Uskrs</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/dan%20zaljubljenih.jpg?raw=true" alt="Dan zaljubljenih">
+              <div><p>14. februar, dan zaljubljenih samo što nije </p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/haloween.jpg?raw=true" alt="Pravljenje dekoracije za Halloween">
+              <div><p>Kada je potrebno pomaže i osoblje Doma</p></div>
+            </div>
+          </div>
+
+          <div class="w3-container w3-row">
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/haloween%20ukrasi.jpg?raw=true" alt="Ukrasi za Halloween">
+              <div><p>Ukrase za Halloween napravile su stare ali vešte ruke</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/iscekivanje%20proleca.jpg?raw=true" alt="Proleće na pragu">
+              <div><p>U susret proleću</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/pripreme%20za%208.mart.jpg?raw=true" alt="dekoracije za 8.mart">
+              <div><p>Pravljenje dekoracija za 8.mart</p></div>
+            </div>
+            
+          </div>
+        </div>
+        <!--PROSLAVA BOŽIĆA-->
+
+        <button onclick="myFunction('Demo5')" class="w3-button w3-block w3-light-grey w3-left-align">
+          Proslava Božića - galerija</button>
+          <div id="Demo5" class="w3-hide w3-panel w3-light-grey w3-display-container">
+      
+          <p>Božić se u Domu slavi isto kao i svuda - u porodičnoj atmosferi</p>
+
+          <div class="w3-container w3-row">
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/CAM00438.jpg?raw=true" alt="Kićenje jelke">
+              <div><p>Kićenje Božićne jelke</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/CAM00457.jpg?raw=true" alt="Kićenje jelke">
+              <div><p>U kićenju jelke učestvuju mnogi</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/b4.jpg?raw=true" alt="Deda Mraz u domu">
+              <div><p>Deda Mraz je podelio božićne poklone</p></div>
+            </div>
+          </div>
+
+          <div class="w3-container w3-row">
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/b3.jpg?raw=true" alt="Božińi pokloni">
+              <div><p>Deda Mraz nikoga ne zaboravlja</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/b2.jpg?raw=true" alt="Svečani ručak">
+              <div><p>Svečani ručak povodom katoličkog Božića</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/b1.jpg?raw=true" alt="Božićni ručak">
+              <div><p>Za Božić nam dolaze i gosti</p></div>
+            </div>
+            
+          </div>
+        </div>
+        <!--RODJENDANI KORISNIKA-->
+
+        <button onclick="myFunction('Demo6')" class="w3-button w3-block w3-light-grey w3-left-align">
+          Rodjendani korisnika - galerija</button>
+          <div id="Demo6" class="w3-hide w3-panel w3-light-grey w3-display-container">
+      
+          <p>Ne zaboravljamo rodjendane naših korisnika.</p>
+
+      
+          <div class="w3-container w3-row">
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/20150616_111942.jpg?raw=true" alt="Dva rodjendana">
+              <div><p>Da žurka bude veća kombinujemo dva rodjendana</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/20170626_155118.jpg?raw=true" alt="Dva rodjendana">
+              <div><p>Dve vršnjakinje slave rodjendan zajedno</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/CAM00378.jpg?raw=true" alt="Vatromet">
+              <div><p>Vatromet je neizostavan detalj na rodjendanskim tortama</p></div>
+            </div>
+          </div>
+
+          <div class="w3-container w3-row">
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/r2.jpg?raw=true" alt="Rodjendanski poklon">
+              <div><p>Naravno, tu su i pokloni</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/r4.jpg?raw=true" alt="Vatromet na torti">
+              <div><p>Malo razonode svakome prija</p></div>
+            </div>
+            <div class="w3-third">
+              <img src="https://github.com/greeenCloud/fenix/blob/main/5.jpg?raw=true" alt="Ručak povodom rodjendana">
+              <div><p>Na proslavu rodjendana dolaze i gosti</p></div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="footer w3-container">
+          <br><br><br>
+          <p>
+              Telefon:<br>
+               +381 (0) 62 156 22 01<br>
+                       +381 (0) 62 821 33 03<br>
+              e-Mail:fenikspadina@gmail.com
+              <br><br>
+              Dom za smeštaj odraslih i starijih "FENIX"
+              <br>
+              Trg Oslobodjenja 8, 26215 Padina<br>
+              Vojvodina, Republika Srbija
+          </p><br><br><br>
+          <div class="w3-border-dark-gray w3-bottombar"></div>
+          <br>
+          <div class="w3-container">
+              <i> &copy;</i> 2020 Fenix Padina 
+          </div>
+          <br><br><br><br>
+      </div>
+        
+        
+         
+  <script>
+  function barFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+                
+    function plusSlides(n) {
+    showSlides(slideIndex += n);
+    }
+                
+    function currentSlide(n) {
+    showSlides(slideIndex = n);
+     }
+                
+   function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";
+     }
+    for ( i = 0; i < dots.length; i++) {
+         dots[i].className = dots[i].className.replace(" active", "");
+     }
+         slides[slideIndex-1].style.display = "block";
+         dots[slideIndex-1].className += " active";
+     }
+                
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+          
+    </script>
+    </body>
+
+</html>

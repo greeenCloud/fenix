@@ -19,10 +19,6 @@ body {
  .topnav {
     overflow: hidden;
     background-color: #4d4d4d;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    border-bottom: 1px solid black;
 }
   
   .topnav a {

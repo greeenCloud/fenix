@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
   
 <head>
     <title>Licencirani Dom za smeštaj odraslih i starijih lica - Fenix, Padina</title>
@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="https://github.com/greeenCloud/fenix/blob/main/favicon.png?raw=true">
+    <link rel="stylesheet" href="fenix.css" type="text/css">
   
 
   
     
 <style>
-  body {
+  /*body {
     margin: 0;
   }
   header {
@@ -32,7 +33,7 @@
 
  /*NAVIGATION BAR*/
     
- .topnav {
+ /*.topnav {
     overflow: hidden;
     background-color: #4d4d4d;
   }
@@ -85,7 +86,7 @@
 
   /*SLIDESHOW*/   
 
-  .mySlides {
+  /*.mySlides {
     display: none;
     }
     img {
@@ -154,7 +155,7 @@
     }*/
     
     
-    .dot {
+    /*.dot {
       cursor: pointer;
       height: 15px;
       width: 15px;
@@ -201,11 +202,8 @@
         width: 295px;
         height: 170px;
       }
-      .w3-rest {
-        width: 100%;
-      }
 
-    }
+    }*/
   
 
 
@@ -214,12 +212,12 @@
         </head>
         <body>
         <!--NAVBAR-->    
-           <div id="home"class="slideshow-container">
+           <div class="slideshow-container">
             <div class="topnav" id="myTopnav">
               <a class="active" style="background-color: black"><img src="https://github.com/greeenCloud/fenix/blob/main/fenix%20logo.png?raw=true"></a>
               <a href="fenix.html">Početna</a>
               <a href="oNama.html" target="_blank">O nama</a>
-              <a href="usluge.html" target="_blank">Usluge</a>
+              <a href="usluge.html"target="_blank">Usluge</a>
               <a href="kontakt.html" target="_blank">Kontakt</a>
               <a href="">Galerija</a>
               <a href="javascript:void(0);" class="icon" onclick="barFunction()">
@@ -246,7 +244,7 @@
             </div>
                 
             <div class="mySlides fade">
-                <div class="numbertext"></div>
+                <div class="numbertext"></div>-->
                 <img src="https://github.com/greeenCloud/fenix/blob/main/fenix-dvoriste4.jpg?raw=true" style="width: 100%"/>
                 <div class="text">Profesionalno osoblje pruža najbolju negu</div>
             </div>
@@ -284,12 +282,7 @@
             <br>
             <p>Pogledajte prezentaciju ustanove Fenix u Padini</p>
          </div><br>
-        <div class="w3-row"> 
-          <div class="w3-col w3-left w3-container" style="width:100px"></div>
-          <div class="w3-col w3-right w3-container" style="width:100px"></div>
-          <div class="w3-rest w3-container">
-         <a href="http://www.goldstarkovacica.com/" style="text-decoration: none" target="_blank">
-         <div class="w3-panel w3-brown w3-round-xlarge w3-center">
+         <div class="w3-panel w3-content w3-card w3-sand  w3-center">
             <p>Dom za smeštaj odraslih i starijih „Fenix“ u Padini, je ustanova namenski građena, prilagođena i
               koncipirana za pružanje
               usluga korisnicima koji se nalaze u trećem životnom dobu a koji su još uvek vitalni ili im je
@@ -298,14 +291,13 @@
               ustanovi ovog tipa a
               ukoliko dođe do pogoršanja zdravstvenog stanja ili privremeni oporavak usled bolesti ili
               određenih medicinskih
-              intervencija koje zahtevaju smeštaj u stacionaru,ustanova s medicinskom negom Gold Star je na
+              intervencija koje zahtevaju smeštaj u stacionaru,ustanova s medicinskom negom "Gold Star" je na
               raspolaganju sa svojim
               kapacitetom za pružanje ovih usluga.</p>
           Tako da naši korisnici imaju mogućnost da budu uvek zbrinuti u svakom trenutku u raznim životnim i
           zdravstvenim fazama.
           Našu ustanovu socijalne zaštite „Gold Star", Kovačica možete pogledati na sajtu</p>
-          <h5>www.goldstarkovacica.com</h5></div></a></div>
-        </div>
+          <a href="http://www.goldstarkovacica.com/"target="_blank"><h5>www.goldstarkovacica.com</h5></a></div>
         <br><br><br>
 
          <!--OKUPACIONA TERAPIJA-->
@@ -319,7 +311,7 @@
           <div class="w3-container w3-row">
             <div class="w3-third">
               <img src="https://github.com/greeenCloud/fenix/blob/main/1156.jpg?raw=true" alt="Pripreme za Haloween">
-              <div><p>Pripreme za Haloween</p></div>
+              <div><p>Pripreme za Halloween</p></div>
             </div>
             <div class="w3-third">
               <img src="https://github.com/greeenCloud/fenix/blob/main/CAM00682.jpg?raw=true" alt="U susret proleću">
@@ -506,7 +498,7 @@
         <!--RODJENDANI KORISNIKA-->
 
         <button onclick="myFunction('Demo6')" class="w3-button w3-block w3-light-grey w3-left-align">
-          Rodjendani korisnika</button>
+          Rodjendani korisnika - galerija</button>
           <div id="Demo6" class="w3-hide w3-panel w3-light-grey w3-display-container">
       
           <p>Ne zaboravljamo rodjendane naših korisnika.</p>
@@ -546,7 +538,8 @@
         <div class="footer w3-container">
           <br><br><br>
           <p>
-              Telefon: +381 (0) 62 156 22 01<br>
+              Telefon:<br>
+               +381 (0) 62 156 22 01<br>
                        +381 (0) 62 821 33 03<br>
               e-Mail:fenikspadina@gmail.com
               <br><br>
@@ -562,6 +555,8 @@
           </div>
           <br><br><br><br>
       </div>
+        
+        
         
         
          

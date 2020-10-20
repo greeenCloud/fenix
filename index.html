@@ -1,4 +1,5 @@
- <!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="sr">
   
 <head>
@@ -10,14 +11,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="https://github.com/greeenCloud/fenix/blob/main/favicon.png?raw=true">
     <link rel="stylesheet" href="fenix.css" type="text/css">
-  
 
   
     
 <style>
- 
+ /*GALLERY*/
   
-    button {
+  button {
   display: block;
   background-color: #808080;
   color: white;
@@ -54,26 +54,26 @@ width: 320px;
 height: 239px;
 padding: 10px;
 }
+/*ENDGALLERY*/
 
-
-
- 
 </style>
         </head>
         <body>
         <!--NAVBAR-->    
            <div class="slideshow-container">
             <div class="topnav" id="myTopnav">
-              <a class="active" style="background-color: black"><img src="https://github.com/greeenCloud/fenix/blob/main/fenix%20logo.png?raw=true"></a>
-              <a href="index.html">Početna</a>
+              <a class="active" style="background-color: black"><img src="https://github.com/greeenCloud/fenix/blob/main/logo.png?raw=true"></a>
+              <a href="fenix.html" class="active" style="background-color: #004d00;">Početna</a>
               <a href="oNama.html" target="_blank">O nama</a>
-              <a href="usluge.html"target="_blank">Usluge</a>
+              <a href="usluge.html" target="_blank">Usluge</a>
               <a href="kontakt.html" target="_blank">Kontakt</a>
-              <a href="">Galerija</a>
-              <a href="javascript:void(0);" class="icon" onclick="barFunction()">
-                <i class="fa fa-bars"></i>
-              </a>
+              <a href="galerija.html" target="_blank">Galerija</a><br>
+              <a href="" title="Slovakian" target="_blank"><img src="https://github.com/greeenCloud/fenix/blob/main/slovakia.jpg?raw=true" class="w3-circle"></a>
+              <a href="" title="Russian" target="_blank"><img src="https://github.com/greeenCloud/fenix/blob/main/russian.jpg?raw=true" class="w3-circle"></a>
+              <a href="" title="English" target="_blank"><img src="https://github.com/greeenCloud/fenix/blob/main/english.jpg?raw=true" class="w3-circle"></a>
+              <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
             </div>
+          
               
             <div class="mySlides fade">
                 <div class="numbertext"></div>
@@ -94,7 +94,7 @@ padding: 10px;
             </div>
                 
             <div class="mySlides fade">
-                <div class="numbertext"></div>-->
+                <div class="numbertext"></div>
                 <img src="https://github.com/greeenCloud/fenix/blob/main/fenix-dvoriste4.jpg?raw=true" style="width: 100%"/>
                 <div class="text">Profesionalno osoblje pruža najbolju negu</div>
             </div>
@@ -104,19 +104,18 @@ padding: 10px;
                 <img src="https://github.com/greeenCloud/fenix/blob/main/fenix-dvoriste5.jpg?raw=true" style="width: 100%"/>
                 <div class="text">Besprekorno uredjeno dvorište Doma</div>
             </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
             </div>
              
               
             <br>
               
             <div style="text-align: center">
-              <span class="dot" onclick="currentSlide(1)"></span>
-              <span class="dot" onclick="currentSlide(2)"></span>
-              <span class="dot" onclick="currentSlide(3)"></span>
-              <span class="dot" onclick="currentSlide(4)"></span>
-              <span class="dot" onclick="currentSlide(5)"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
             </div>
             <br>
         <div class="w3-container w3-red w3-center header">
@@ -196,8 +195,6 @@ padding: 10px;
     </div> 
   </div>
   
-  
-<!--<button class="tablinks w3-center" onclick="openGallery(event, 'demo2')">Posetioci doma - galerija</button>-->
 <div id="demo2" class="tabcontent w3-container w3-center">
   <h3>Posetioci Doma su deca, kulturni umetnici, novinari i naravno rodbina.</h3>
   <div class="w3-container w3-row">
@@ -231,7 +228,6 @@ padding: 10px;
   </div> 
 </div>
 
-<!--<button class="tablinks w3-center" onclick="openGallery(event, 'demo3')">Boravak napolju - galerija</button>-->
 <div id="demo3" class="tabcontent w3-center">
   <h3>Mnogo zelenila, divne male negovane baštice i puno drveća odličan su ambijent za odmor naših korisnika.</h3>
   <div class="w3-container w3-row">
@@ -265,7 +261,6 @@ padding: 10px;
   </div>
 </div>
 
-<!--<button class="tablinks w3-center" onclick="openGallery(event, 'demo4')">Pripreme za praznike - galerija</button>-->
 <div id="demo4" class="tabcontent w3-center">
   <h3>Tokom cele godine pratimo kalendar praznika i na vreme počnemo sa pripremama.</h3>
   <div class="w3-container w3-row">
@@ -299,7 +294,6 @@ padding: 10px;
   </div>
 </div>
 
-<!--<button class="tablinks w3-center" onclick="openGallery(event, 'demo5')">Proslava Božića - galerija</button>-->
 <div id="demo5" class="tabcontent w3-center">
   <h3>Božić se u Domu slavi isto kao i svuda - u kućnoj atmosferi.</h3>
   <div class="w3-container w3-row">
@@ -334,7 +328,6 @@ padding: 10px;
   
 </div>
 
-<!--<button class="tablinks w3-center" onclick="openGallery(event, 'demo6')">Rodjendani korisnika - galerija</button>-->
 <div id="demo6" class="tabcontent w3-center">
   <h3>Ne zaboravljamo rodjendane naših korisnika.</h3>
   <div class="w3-container w3-row">
@@ -392,41 +385,30 @@ padding: 10px;
         
          
   <script>
-  function barFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
+    
+  
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
   }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
 
-    var slideIndex = 1;
-    showSlides(slideIndex);
-                
-    function plusSlides(n) {
-    showSlides(slideIndex += n);
-    }
-                
-    function currentSlide(n) {
-    showSlides(slideIndex = n);
-     }
-                
-   function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-         slides[i].style.display = "none";
-     }
-    for ( i = 0; i < dots.length; i++) {
-         dots[i].className = dots[i].className.replace(" active", "");
-     }
-         slides[slideIndex-1].style.display = "block";
-         dots[slideIndex-1].className += " active";
-     }
+   
      function openGallery(evt, galleryName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -443,18 +425,20 @@ padding: 10px;
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
-                
-/*function myFunction(id) {
-  var x = document.getElementById(id);
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
   }
-}*/
+}
+                
           
     </script>
     </body>
 
 </html>
+
 

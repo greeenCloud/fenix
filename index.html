@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="https://github.com/greeenCloud/fenix/blob/main/favicon.png?raw=true">
     <link rel="stylesheet" href="fenix.css" type="text/css">
+    <link rel="stylesheet" href="/plugins/content/jw_allvideos/jw_allvideos/tmpl/Classic/css/template.css" type="text/css" />
+    <link rel="stylesheet" href="/modules/mod_jflanguageselection/tmpl/mod_jflanguageselection.css" type="text/css" />
 
   
     
@@ -55,6 +57,12 @@ height: 239px;
 padding: 10px;
 }
 /*ENDGALLERY*/
+.dom {
+  padding-bottom: 10px;
+}
+b {
+  color: red;
+}
 
 </style>
         </head>
@@ -67,7 +75,7 @@ padding: 10px;
               <a href="oNama.html">O nama</a>
               <a href="usluge.html">Usluge</a>
               <a href="kontakt.html">Kontakt</a>
-              <a href="galerija.html">Galerija</a><br>
+              <a href="galerija.html">>Galerija</a><br>
               <a href="" title="Slovakian"><img src="https://github.com/greeenCloud/fenix/blob/main/slovakia.jpg?raw=true" class="w3-circle"></a>
               <a href="" title="Russian"><img src="https://github.com/greeenCloud/fenix/blob/main/russian.jpg?raw=true" class="w3-circle"></a>
               <a href="" title="English"><img src="https://github.com/greeenCloud/fenix/blob/main/english.jpg?raw=true" class="w3-circle"></a>
@@ -108,8 +116,6 @@ padding: 10px;
             </div>
              
               
-            <br>
-              
             <div style="text-align: center">
               <span class="dot"></span>
               <span class="dot"></span>
@@ -117,50 +123,56 @@ padding: 10px;
               <span class="dot"></span>
               <span class="dot"></span>
             </div>
-            <br>
         <div class="w3-container w3-red w3-center header">
             <h3>Ako želite najbolje za svoje najmilije, <br> za zdrav i udoban život Dom u provinciji je pravi izbor!</h3>
         </div> 
+        <div class="w3-container w3-blue covid"><h6>UPOZORENJE! Sve fotografije i video zapisi korišćeni na ovom sajtu nastali su pre pojave <b>COVID-19.</b></h6></div>
         <div class="w3-container w3-center"> <h2><i>Najpovoljnije cene za visoki kvalitet usluge smeštaja i nege koju nudimo. Posetite nas lično, bez ikakvih obaveza, da se uverite u naše reči.<br>
         Razdaljina ustanove:<br>
         <h3>Beograd 40km, Novi Sad 85km, Zrenjanin 44km, Pančevo 30km</h3>  
         </i></h2><br></div>
         
-        <div class="w3-container w3-center">
-            <iframe class="dom" width="642" height="340" src="https://www.youtube.com/embed/hNz1detiVYs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="w3-row w3-center">
+          <div class="w3-half">
+            <iframe class="dom" width="450" height="239" src="https://www.youtube.com/embed/hNz1detiVYs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <br>
+          </div>
+          <div class="w3-half">
+            <iframe class="dom" width="450" height="239" src="https://player.vimeo.com/video/235438848?portrait=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+          </div>
             <p>Pogledajte prezentaciju ustanove Fenix u Padini</p>
          </div><br>
          <div class="w3-panel w3-content w3-card w3-sand  w3-center">
-            <p>Dom za smeštaj odraslih i starijih „Fenix“ u Padini, je ustanova namenski građena, prilagođena i
+            <p>Dom za smeštaj odraslih i starijih "Fenix" u Padini, je ustanova namenski građena, prilagođena i
               koncipirana za pružanje
               usluga korisnicima koji se nalaze u trećem životnom dobu a koji su još uvek vitalni ili im je
               potrebna povremena
-              asistencija pri obavljanju određenih životnih potreba.</p> <p>Fenix ustanova je povezana sa smeštajnom ustanovom "Gold Star" u Kovačici u jednu celinu, gde mogu korisnici koji su još uvek vitalni da borave u
-              ustanovi ovog tipa a
-              ukoliko dođe do pogoršanja zdravstvenog stanja ili privremeni oporavak usled bolesti ili
-              određenih medicinskih
-              intervencija koje zahtevaju smeštaj u stacionaru,ustanova s medicinskom negom "Gold Star" je na
-              raspolaganju sa svojim
-              kapacitetom za pružanje ovih usluga.</p>
-          Tako da naši korisnici imaju mogućnost da budu uvek zbrinuti u svakom trenutku u raznim životnim i
-          zdravstvenim fazama.
-          Našu ustanovu socijalne zaštite „Gold Star", Kovačica možete pogledati na sajtu</p>
-          <a href="http://www.goldstarkovacica.com/"target="_blank"><h5>www.goldstarkovacica.com</h5></a></div>
+              asistencija pri obavljanju određenih životnih potreba.</p>
+          </div>
         <br><br><br>
 
    
 
         <!--GALLERY-->
 
- <button class="tablinks" onclick="openGallery(event, 'demo1')" id="defaultOpen">Okupaciona terapija - galerija</button>
+        <button class="tablinks" onclick="openGallery(event, 'demo1')" id="defaultOpen">Okupaciona terapija - galerija</button>
+<button class="tablinks" onclick="openGallery(event, 'demo2')">Posetioci doma - galerija</button>
+<button class="tablinks" onclick="openGallery(event, 'demo3')">Boravak napolju - galerija</button>
+<button class="tablinks" onclick="openGallery(event, 'demo4')">Pripreme za praznike - galerija</button>
+<button class="tablinks" onclick="openGallery(event, 'demo5')">Proslava Božića - galerija</button>
+<button class="tablinks w3-border-bottom w3-border-black" onclick="openGallery(event, 'demo6')">Rodjendani korisnika - galerija</button>
+
+
+
+
 <div id="demo1" class="tabcontent w3-panel w3-center">
   <h3>Okupaciona terapija povoljno utiče na raspoloženje a samim tim i na zdravlje naših korisnika. </h3>
-  <div class="w3-container w3-row">
+  <!--<div class="w3-container w3-row">
     <div class="w3-third">
       <img src="https://github.com/greeenCloud/fenix/blob/main/1156.jpg?raw=true" alt="Pripreme za Haloween">
       <div><p>Pripreme za Halloween</p></div>
-    </div>
+    </div>-->
     <div class="w3-third">
       <img src="https://github.com/greeenCloud/fenix/blob/main/CAM00682.jpg?raw=true" alt="U susret proleću">
       <div><p>U susret proleću</p></div>
@@ -168,9 +180,17 @@ padding: 10px;
     <div class="w3-third">
       <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0323.jpg?raw=true" alt="Društvene igre">
       <div><p>Društvene igre</p></div>
+   </div>
+    <div class="w3-third">
+      <img src="https://github.com/greeenCloud/fenix/blob/main/MARKA%20022.jpg?raw=true" alt="Čitanje knjiga">
+      <div><p>Godine nisu prepreka za čitanje knjiga</p></div>
     </div>
   </div>
-  <div class="w3-container w3-row">
+  <!--<div class="w3-container w3-row">
+    <div class="w3-third">
+      <img src="https://github.com/greeenCloud/fenix/blob/main/1156.jpg?raw=true" alt="Pripreme za Haloween">
+      <div><p>Pripreme za Halloween</p></div>
+    </div>
     <div class="w3-third">
       <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0504.jpg?raw=true" alt="Zajednički projekat">
       <div><p>Zajednički projekat</p></div>
@@ -179,14 +199,9 @@ padding: 10px;
       <img src="https://github.com/greeenCloud/fenix/blob/main/MARKA%20018.jpg?raw=true" alt="Umetnici na delu">
       <div><p>Umetnici na delu</p></div>
     </div>
-    <div class="w3-third">
-      <img src="https://github.com/greeenCloud/fenix/blob/main/MARKA%20022.jpg?raw=true" alt="Čitanje knjiga">
-      <div><p>Godine nisu prepreka za čitanje knjiga</p></div>
-    </div>
-    </div> 
-  </div>
+    </div> -->
   
- <button class="tablinks" onclick="openGallery(event, 'demo2')">Posetioci doma - galerija</button> 
+  
 <div id="demo2" class="tabcontent w3-container w3-center">
   <h3>Posetioci Doma su deca, kulturni umetnici, novinari i naravno rodbina.</h3>
   <div class="w3-container w3-row">
@@ -204,57 +219,54 @@ padding: 10px;
     </div>
   </div>
   <div class="w3-container w3-row">
-    <div class="w3-third">
+    <!--<div class="w3-third">
       <img src="https://github.com/greeenCloud/fenix/blob/main/den_starych_002.jpg?raw=true" alt="Druženje sa posetiocima na dvorištu">
       <div><p>Obeležen 1,oktobar, Medjunarodni Dan Starih</p></div>
-    </div>
+    </div>-->
     <div class="w3-third">
       <img src="https://github.com/greeenCloud/fenix/blob/main/IMG_20170308_151425.jpg?raw=true" alt="Velika trpezarija">
       <div><p>Velika trpezarija prima mnogo gostiju</p></div>
     </div>
-    <div class="w3-third">
+    <!--<div class="w3-third">
       <img src="https://github.com/greeenCloud/fenix/blob/main/IMG_0337.jpg?raw=true" alt="Mališani u domu">
       <div><p>Mališani u poseti Domu</p></div>
-    </div>
+    </div>-->
     </div>
   </div> 
-</div>
 
-<button class="tablinks" onclick="openGallery(event, 'demo3')">Boravak napolju - galerija</button>
 <div id="demo3" class="tabcontent w3-center">
   <h3>Mnogo zelenila, divne male negovane baštice i puno drveća odličan su ambijent za odmor naših korisnika.</h3>
-  <div class="w3-container w3-row">
+  <!--<div class="w3-container w3-row">
     <div class="w3-third">
-      <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0019.jpg?raw=true" alt="Na dvorištu">
-      <div><p>Napolju je uvek prijatno u društvu</p></div>
+      <img src="" alt="Na dvorištu">
+      <div><p></p></div>
     </div>
     <div class="w3-third">
-      <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0020.jpg?raw=true" alt="Druženje na dvorištu">
-      <div><p>Druženje na dvorištu</p></div>
+      <img src="" alt="Druženje na dvorištu">
+      <div><p></p></div>
     </div>
     <div class="w3-third">
-      <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0022.jpg?raw=true" alt="U parku">
-      <div><p>U obližnjem parku</p></div>
+      <img src="" alt="">
+      <div><p></p></div>
     </div>
   </div>
   <div class="w3-container w3-row">
     <div class="w3-third">
-      <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0488.jpg?raw=true" alt="Briga za druge">
-      <div><p>Korisnici doma brinu jedni za druge</p></div>
+      <img src="" alt="Briga za druge">
+      <div><p></p></div>
     </div>
     <div class="w3-third">
-      <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0492.jpg?raw=true" alt="Radionica">
-      <div><p>Zajednički projekat</p></div>
+      <img src="" alt="Radionica">
+      <div><p></p></div>
     </div>
     <div class="w3-third">
-      <img src="https://github.com/greeenCloud/fenix/blob/main/DSC_0497.jpg?raw=true" alt="U dvorištu">
-      <div><p>Pauza posle završenog projekta</p></div>
+      <img src="" alt="U dvorištu">
+      <div><p></p></div>
     </div>
     
-  </div>
+  </div>-->
 </div>
 
-<button class="tablinks" onclick="openGallery(event, 'demo4')">Pripreme za praznike - galerija</button>
 <div id="demo4" class="tabcontent w3-center">
   <h3>Tokom cele godine pratimo kalendar praznika i na vreme počnemo sa pripremama.</h3>
   <div class="w3-container w3-row">
@@ -263,32 +275,31 @@ padding: 10px;
       <div><p>Pripreme za Uskrs</p></div>
     </div>
     <div class="w3-third">
-      <img src="https://github.com/greeenCloud/fenix/blob/main/dan%20zaljubljenih.jpg?raw=true" alt="Dan zaljubljenih">
-      <div><p>14. februar, dan zaljubljenih samo što nije </p></div>
-    </div>
-    <div class="w3-third">
       <img src="https://github.com/greeenCloud/fenix/blob/main/haloween.jpg?raw=true" alt="Pravljenje dekoracije za Halloween">
       <div><p>Kada je potrebno pomaže i osoblje Doma</p></div>
     </div>
-  </div>
-  <div class="w3-container w3-row">
     <div class="w3-third">
       <img src="https://github.com/greeenCloud/fenix/blob/main/haloween%20ukrasi.jpg?raw=true" alt="Ukrasi za Halloween">
       <div><p>Ukrase za Halloween napravile su stare ali vešte ruke</p></div>
     </div>
+  </div></div>
+  <!--<div class="w3-container w3-row">
+     <div class="w3-third">
+      <img src="" alt="Dan zaljubljenih">
+      <div><p> </p></div>
+    </div>
     <div class="w3-third">
-      <img src="https://github.com/greeenCloud/fenix/blob/main/iscekivanje%20proleca.jpg?raw=true" alt="Proleće na pragu">
+      <img src="" alt="Proleće na pragu">
       <div><p>U susret proleću</p></div>
     </div>
     <div class="w3-third">
-      <img src="https://github.com/greeenCloud/fenix/blob/main/pripreme%20za%208.mart.jpg?raw=true" alt="dekoracije za 8.mart">
-      <div><p>Pravljenje dekoracija za 8.mart</p></div>
+      <img src="" alt="dekoracije za 8.mart">
+      <div><p></p></div>
     </div>
     
   </div>
-</div>
+</div>-->
 
-<button class="tablinks" onclick="openGallery(event, 'demo5')">Proslava Božića - galerija</button>
 <div id="demo5" class="tabcontent w3-center">
   <h3>Božić se u Domu slavi isto kao i svuda - u kućnoj atmosferi.</h3>
   <div class="w3-container w3-row">
@@ -323,38 +334,37 @@ padding: 10px;
   
 </div>
 
-<button class="tablinks w3-border-bottom w3-border-black" onclick="openGallery(event, 'demo6')">Rodjendani korisnika - galerija</button>
 <div id="demo6" class="tabcontent w3-center">
   <h3>Ne zaboravljamo rodjendane naših korisnika.</h3>
-  <div class="w3-container w3-row">
+  <!--<div class="w3-container w3-row">
     <div class="w3-third">
-      <img src="https://github.com/greeenCloud/fenix/blob/main/20150616_111942.jpg?raw=true" alt="Dva rodjendana">
-      <div><p>Da žurka bude veća kombinujemo dva rodjendana</p></div>
+      <img src="" alt="Dva rodjendana">
+      <div><p></p></div>
     </div>
     <div class="w3-third">
-      <img src="https://github.com/greeenCloud/fenix/blob/main/20170626_155118.jpg?raw=true" alt="Dva rodjendana">
-      <div><p>Dve vršnjakinje slave rodjendan zajedno</p></div>
+      <img src="" alt="Dva rodjendana">
+      <div><p></p></div>
     </div>
     <div class="w3-third">
-      <img src="https://github.com/greeenCloud/fenix/blob/main/CAM00378.jpg?raw=true" alt="Vatromet">
-      <div><p>Vatromet je neizostavan detalj na rodjendanskim tortama</p></div>
+      <img src="" alt="Vatromet">
+      <div><p></p></div>
     </div>
   </div>
   <div class="w3-container w3-row">
     <div class="w3-third">
-      <img src="https://github.com/greeenCloud/fenix/blob/main/r2.jpg?raw=true" alt="Rodjendanski poklon">
-      <div><p>Naravno, tu su i pokloni</p></div>
+      <img src="" alt="Rodjendanski poklon">
+      <div><p></p></div>
     </div>
     <div class="w3-third">
-      <img src="https://github.com/greeenCloud/fenix/blob/main/r4.jpg?raw=true" alt="Vatromet na torti">
-      <div><p>Malo razonode svakome prija</p></div>
+      <img src="" alt="Vatromet na torti">
+      <div><p></p></div>
     </div>
     <div class="w3-third">
-      <img src="https://github.com/greeenCloud/fenix/blob/main/5.jpg?raw=true" alt="Ručak povodom rodjendana">
-      <div><p>Na proslavu rodjendana dolaze i gosti</p></div>
+      <img src="" alt="Ručak povodom rodjendana">
+      <div><p></p></div>
     </div>
     
-  </div>
+  </div>-->
 </div>
         <!--ENDGALLERY-->
         <div class="footer w3-container">
@@ -436,5 +446,4 @@ function myFunction() {
     </body>
 
 </html>
-
 

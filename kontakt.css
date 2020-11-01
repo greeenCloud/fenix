@@ -50,11 +50,11 @@ text-align: left;
 header {
 padding: 15px;
 }
-.vlasnik {
-font-size: 20px;
-color: dark-blue;
-}
-
+ 
+.facebook {
+  width: 32px;
+  height: 32px;
+    }
 .footer {
 background-color: #333333;
 color: #ffffff;

@@ -50,10 +50,6 @@ text-align: left;
 width: 250px;
 height: 186px;
 }
-.vlasnik {
-font-size: 20px;
-color: dark-blue;
-}
 
 
 .footer {
@@ -64,6 +60,11 @@ color: #ffffff;
 width: 250px;
 height: 323px;
 
-}    
+}  
+
+.facebook {
+  width: 32px;
+  height: 32px;
+    }
 
 

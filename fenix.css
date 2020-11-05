@@ -1,4 +1,4 @@
-
+ 
 * {
   box-sizing: border-box;
 }
@@ -10,9 +10,12 @@ body {
   header {
     padding: 15px;
 }
+/*
+
 
  /*NAVIGATION BAR*/
- .topnav {
+ 
+.topnav {
   overflow: hidden;
   background-color: #333;
 }
@@ -127,6 +130,7 @@ body {
   transition: background-color 0.6s ease;
 }
 
+
 .active {
   background-color: red;
 }
@@ -156,6 +160,7 @@ body {
     padding: 3px 5px;
   }
 }
+/*ENDSLIDESHOW*/
 
  /*GALLERY*/
  
@@ -201,7 +206,6 @@ body {
 }
 
 /*ENDGALLERY*/
-
 .w3-circle {
   max-width: 35px;
   max-height: 17px;
@@ -240,4 +244,4 @@ h3 {
       }
     }
 
-  
+

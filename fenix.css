@@ -17,7 +17,6 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
-  height: 80px;
 }
 
 .topnav a {
@@ -36,8 +35,6 @@ body {
 .topnav a.active {
   background-color: #ddd;  
   color: black;
-   height: 100%;
-  border-bottom: 3px solid red;
   }
 
 .topnav .icon {

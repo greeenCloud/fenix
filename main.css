@@ -1,4 +1,7 @@
 
+* {
+  box-sizing: border-box;
+}
 body {
     margin: 0;
 }
@@ -64,7 +67,10 @@ height: 200px;
         height: 118px;
         }  
 }
-
+.w3-circle {
+  height: 14px;
+  width: auto;
+}  
 
 .footer {
 background-color: #333333;
@@ -79,4 +85,5 @@ height: 323px;
     width: 32px;
     height: 32px;
       } 
+
 
